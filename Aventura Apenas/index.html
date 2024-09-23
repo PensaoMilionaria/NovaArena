@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca de uma nova arena</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Um dia você estava jogando Clash Royale, você precisava escolher suas cartas para jogar, qual é a sua primeira carta escolhida?</p>
+            <button class="btn-proximo" data-proximo="1">Pekka</button>
+            <button class="btn-proximo" data-proximo="2">Megacavaleiro</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Então você joga sua carta na arena e sua Pekka estava indo em direção à torre inimiga até que seu oponente joga exército de esqueletos, como você reage?</p>
+            <button class="btn-proximo" data-proximo="3">Tronco, assim levando o exército de esqueletos</button>
+            <button class="btn-proximo" data-proximo="4">Não faz nada</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Então você joga sua carta na arena e seu Megacavaleiro estava indo em direção à torre inimiga até que seu oponente joga uma torre inferno, como você reage?</p>
+            <button class="btn-proximo" data-proximo="5">Zap, assim parando a torre inferno no momento certo</button>
+            <button class="btn-proximo" data-proximo="6">Não faz nada</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Bela jogada, sua Pekka continua firme e forte, sua Pekka após morrer deixa a torre com 370 de vida</p>
+            <button class="btn-proximo" data-proximo="7">Esperar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Parabéns cabaço, você entregou sua Pekka de graça e perdeu a partida</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O seu Mega consegue chegar à torre e causar muito dano</p>
+            <button class="btn-proximo" data-proximo="7">Esperar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Parabéns cabaço, você entregou o seu Mega</p>
+            <button class="btn-proximo" data-proximo="8">Esperar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Agora faltam 10 segundos para acabar o jogo, o que você faz</p>
+            <button class="btn-proximo" data-proximo="9">Jogar um foguete na torre inimiga e ganhar a partida</button>
+            <button class="btn-proximo" data-proximo="10">Não fazer nada e esperar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Agora a sua única chance é jogar um barril de goblins para dar dano à torre inimiga</p>
+            <button class="btn-proximo" data-proximo="7">Jogar barril de goblins</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Parabéns, você destruiu a torre inimiga e ganhou a partida</p>
+            <button class="btn-proximo" data-proximo="11">Voltar ao lobby</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você aguarda enquanto o seu elixir carrega e espera a jogada do oponente</p>
+            <button class="btn-proximo" data-proximo="12">Aguardar e observar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Boa, você ganhou 31 troféis e subiu de arena, joga mt mlk</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Então nos últimos segundos você joga seu foguete na torre</p>
+            <button class="btn-proximo" data-proximo="11">Jogar foguete na torre inimiga</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
